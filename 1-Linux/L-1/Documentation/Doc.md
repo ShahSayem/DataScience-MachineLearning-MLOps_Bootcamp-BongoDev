@@ -191,5 +191,5 @@
 
 ## Explore further
 
-1. [More on `ls` and `cp`](file/ls-and-cp.md)
-2. [File Permissions](file/permissions.md)
+1. [More on `ls` and `cp`](File/ls-and-cp.md)
+2. [File Permissions](File/permissions.md)
