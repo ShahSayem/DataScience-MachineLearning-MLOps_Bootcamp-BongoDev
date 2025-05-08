@@ -27,7 +27,13 @@ Here’s a quick reference for commonly used Linux commands for beginners and de
 | `cp <src> <dest>`          | Copies a file or directory                                           |                                             |
 | `mv <src> <dest>`          | Moves or renames a file or directory                                 |                                             |
 | `find <path> -name <file>` | Searches for files by name under a path                              |                                             |
-| \`seq 1 10 \| grep -vE '(3 \| 4)' \| xargs -I{} mkdir "folder{}"\`                                 | Creates folders from 1 to 10 except 3 and 4 |
+---
+
+```bash
+seq 1 10 | grep -vE '(3|4)' | xargs -I{} mkdir "folder{}"
+```
+
+Creates `folder1`, `folder2`, `folder5`... omitting 3 and 4.
 
 ---
 
