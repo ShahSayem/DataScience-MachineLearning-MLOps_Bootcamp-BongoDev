@@ -10,3 +10,15 @@ for num in nums:
 fruits = ["apple", "banana", "cherry"]
 for idx, fruit in enumerate(fruits):
     print(idx, fruit)
+
+
+for i in range(5):
+    print(i)
+
+
+# while loop
+print("While loop:")
+idx = 0
+while idx < len(nums):
+    print(nums[idx])
+    idx += 1
