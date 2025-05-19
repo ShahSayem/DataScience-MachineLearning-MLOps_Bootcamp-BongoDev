@@ -1,3 +1,3 @@
 name="Hello there"
 
-print(len(name))
+print(type(name))
